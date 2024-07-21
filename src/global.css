@@ -1,0 +1,199 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(135deg, #ff4081 30%, #7c4dff 90%);
+  color: white;
+  padding: 0 20px; /* Added padding for small screens */
+  box-sizing: border-box; /* Ensure padding is included in element width/height */
+}
+
+.home .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  height: 100%; /* Full height of the container */
+  text-align: center;
+}
+
+.home h1, .home h2 {
+  width: 100%;
+  margin: 0; /* Remove default margins for better control */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home h1 {
+  font-size: 3rem;
+  line-height: 1.1; /* Improve readability */
+  text-transform: uppercase; /* Optional, add if desired */
+  background: linear-gradient(135deg, #ff4081, #7c4dff); /* Gradient background */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 50%; /* Adjust based on the desired height proportion */
+}
+
+.home h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  line-height: 1.3; /* Improve readability */
+  background: linear-gradient(135deg, #ff4081, #7c4dff); /* Gradient background */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 20%; /* Adjust based on the desired height proportion */
+}
+
+/* Navbar styles */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.Navbar .nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.Navbar .nav-links li {
+  margin: 0 15px;
+}
+
+.Navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Navbar .menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.Navbar .menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  margin: 5px 0;
+}
+
+/* Responsive styles for tablets and mobile devices */
+@media (max-width: 768px) {
+  .home {
+    height: auto; /* Adjust height for smaller screens */
+    padding: 20px;
+  }
+
+  .home h1 {
+    font-size: 2.5rem;
+    height: auto; /* Remove fixed height for smaller screens */
+  }
+
+  .home h2 {
+    font-size: 2rem;
+    height: auto; /* Remove fixed height for smaller screens */
+  }
+
+  .btn-primary {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .content {
+    padding-top: 70px; /* Adjust if needed for mobile */
+  }
+
+  .Navbar .nav-links {
+    display: none; /* Hide nav links by default */
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 60px; /* Adjust based on Navbar height */
+    left: 0;
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+
+  .Navbar .nav-links.active {
+    display: flex;
+  }
+
+  .Navbar .menu-toggle {
+    display: block;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+  .home {
+    padding: 10px;
+  }
+
+  .home h1 {
+    font-size: 1.8rem;
+    height: auto; /* Remove fixed height for smaller screens */
+  }
+
+  .home h2 {
+    font-size: 1.2rem;
+    height: auto; /* Remove fixed height for smaller screens */
+  }
+
+  .btn-primary {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+
+  .section {
+    padding: 20px 0;
+  }
+
+  .content {
+    padding-top: 60px; /* Adjust if needed for very small screens */
+  }
+
+  /* Ensure images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.content{
+  padding-top: 40px;
+}
