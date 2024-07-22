@@ -74,7 +74,7 @@ const Home = () => {
             <Button
               variant="contained"
               color="secondary"
-              target="blank"
+              target="_blank"
               href="mailto:rambopranjal63@gmail.com"
               style={{
                 margin: '0 10px',
@@ -92,7 +92,8 @@ const Home = () => {
             <Button
               variant="outlined"
               color="secondary"
-              href="#projects"
+              href="https://drive.google.com/file/d/1BTkOVs5HVx6qeMF-wDpFmsrrbkSktyyj/view?usp=drive_link"
+              target="_blank"
               style={{
                 margin: '0 10px',
                 padding: '10px 20px',
