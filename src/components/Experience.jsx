@@ -11,7 +11,7 @@ const experiences = [
     certificatesLink: 'https://drive.google.com/file/d/1BE0xw__5Ov1fIHVzN17ekCe6wynG_VaA/view?usp=drive_link',
   },
   {
-    title: 'SDE Intern at R.D.S.O (Ministry Of Railways)',
+    title: 'Intern at R.D.S.O (Ministry Of Railways)',
     duration: 'Jun 2024 - Jul 2024',
     description: 'During my internship at the Research Designs and Standards Organisation (RDSO), I contributed to innovative projects in the railway sector. I gained hands-on experience with technologies like MERN and AWS, and collaborated with a team of engineers on developing safety systems and creating a Venue-Booking System. This experience sharpened my technical skills and deepened my understanding of real-world engineering applications, fueling my passion for innovation.',
     certificatesLink: 'https://drive.google.com/file/d/1BI2c81dhbtlqzmLXDMbLjz0qKpbGQwmQ/view?usp=drive_link',
